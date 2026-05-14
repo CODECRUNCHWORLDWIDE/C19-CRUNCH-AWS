@@ -1,0 +1,26 @@
+C19 · Crunch AWS — Amazon Web Services Engineering
+Copyright (C) 2026 CODE CRUNCH CLUB · Crunch Labs
+
+This curriculum (including all lecture notes, lab specifications, capstone
+materials, diagrams, and accompanying source code) is free educational
+content: you can redistribute it and/or modify it under the terms of the
+GNU General Public License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
+
+This work is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+more details.
+
+You should have received a copy of the GNU General Public License along
+with this work. If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
+
+Full license text:    https://www.gnu.org/licenses/gpl-3.0.txt
+SPDX-License-Identifier: GPL-3.0-or-later
+
+"AWS" and "Amazon Web Services" are trademarks of Amazon.com, Inc. or its
+affiliates. This curriculum is independent educational material and is
+not affiliated with, endorsed by, or sponsored by Amazon Web Services.
+
+Charter:  ./CHARTER.md
+Parent:   ../CRUNCH-LABS-CHARTER.md
