@@ -1,0 +1,685 @@
+{
+  "repo": "C19-CRUNCH-AWS",
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "title": "Contributor Covenant Code of Conduct"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "title": "Contributing to Crunch AWS"
+    },
+    {
+      "path": "README.md",
+      "title": "C19 \u00b7 Crunch AWS \u2014 Amazon Web Services Engineering"
+    },
+    {
+      "path": "community/CHARTER.md",
+      "title": "C19 \u00b7 Crunch AWS \u2014 Charter"
+    },
+    {
+      "path": "curriculum/SYLLABUS.md",
+      "title": "C19 \u00b7 Crunch AWS \u2014 Syllabus"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/README.md",
+      "title": "Week 1 \u2014 The AWS Mental Model, Accounts & Billing"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/challenges/README.md",
+      "title": "Week 1 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/challenges/challenge-01-cur-to-athena.md",
+      "title": "Challenge 1 \u2014 Cost & Usage Report \u2192 S3 \u2192 Athena"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/exercises/README.md",
+      "title": "Week 1 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/exercises/exercise-01-root-lockdown-runbook.md",
+      "title": "Exercise 1 \u2014 The Root-Lockdown Runbook"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/homework.md",
+      "title": "Week 1 Homework"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/lecture-notes/01-why-aws-has-200-services.md",
+      "title": "Lecture 1 \u2014 Why AWS Has 200+ Services and How to Navigate That"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/lecture-notes/02-account-posture-organizations-scps.md",
+      "title": "Lecture 2 \u2014 Account-Level Posture: Organizations, OUs, SCPs, and Root-User Hygiene"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Account & Billing Foundation"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/quiz.md",
+      "title": "Week 1 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-01-aws-mental-model-accounts-billing/resources.md",
+      "title": "Week 1 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/README.md",
+      "title": "Week 2 \u2014 IAM Done Right"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/challenges/README.md",
+      "title": "Week 2 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/challenges/challenge-01-twelve-broken-policies.md",
+      "title": "Challenge 1 \u2014 Twelve Broken Policies: Find the Bug, Prove the Fix"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/exercises/README.md",
+      "title": "Week 2 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/exercises/exercise-01-three-account-identity-center.md",
+      "title": "Exercise 1 \u2014 A Three-Account Topology with IAM Identity Center"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/homework.md",
+      "title": "Week 2 Homework"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/lecture-notes/01-read-this-policy-out-loud.md",
+      "title": "Lecture 1 \u2014 Read This Policy Out Loud. Now Break It."
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/lecture-notes/02-permission-boundaries-and-three-roles.md",
+      "title": "Lecture 2 \u2014 Permission Boundaries: The Only Safe Way to Delegate, and Why Your CDK Deploy Needs Three Roles"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Three-Account Identity Layer"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/quiz.md",
+      "title": "Week 2 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-02-iam-done-right/resources.md",
+      "title": "Week 2 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/README.md",
+      "title": "Week 3 \u2014 CDK, CloudFormation & Local Tooling"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/challenges/README.md",
+      "title": "Week 3 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/challenges/challenge-01-localstack-sam-drift.md",
+      "title": "Challenge 1 \u2014 LocalStack, `sam local invoke`, and Drift"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/exercises/README.md",
+      "title": "Week 3 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/exercises/exercise-01-cdk-ts-vpc-s3-lambda.md",
+      "title": "Exercise 1 \u2014 A TS CDK App: VPC + KMS-encrypted S3 + Lambda"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/homework.md",
+      "title": "Week 3 Homework"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/lecture-notes/01-cdk-vs-opentofu-the-iac-landscape.md",
+      "title": "Lecture 1 \u2014 Why CDK Lost the Open-Source War but Won the AWS One \u2014 and When to Use OpenTofu Instead"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/lecture-notes/02-bootstrap-constructs-drift-and-the-substrate.md",
+      "title": "Lecture 2 \u2014 `cdk bootstrap` and the Chicken-and-Egg IAM Problem: Constructs, Drift Detection, and the IaC Substrate"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Crunch IaC Starter"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/quiz.md",
+      "title": "Week 3 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-03-cdk-cloudformation-local-tooling/resources.md",
+      "title": "Week 3 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/README.md",
+      "title": "Week 4 \u2014 VPC, Networking & Edge"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/challenges/README.md",
+      "title": "Week 4 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/challenges/challenge-01-edge-rate-limit.md",
+      "title": "Challenge 1 \u2014 Edge Rate-Limiting Under Load"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/exercises/README.md",
+      "title": "Week 4 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/exercises/exercise-01-three-az-vpc.md",
+      "title": "Exercise 1 \u2014 Build a Three-AZ VPC"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/homework.md",
+      "title": "Week 4 Homework"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/lecture-notes/01-nat-gateway-vs-vpc-endpoints.md",
+      "title": "Lecture 1 \u2014 Three NAT Gateways Will Cost You More Than Your Laptop. Here's the VPC Endpoint Trick."
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/lecture-notes/02-edge-routing-route53-cloudfront-acm-waf.md",
+      "title": "Lecture 2 \u2014 Edge Routing Done Right: Route 53 Policies, CloudFront, ACM TLS, and WAF Rate-Limiting"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Network Foundation"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/quiz.md",
+      "title": "Week 4 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-04-vpc-networking-edge/resources.md",
+      "title": "Week 4 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/README.md",
+      "title": "Week 5 \u2014 Compute Spectrum: EC2 \u2192 ECS Fargate \u2192 EKS"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/challenges/README.md",
+      "title": "Week 5 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/challenges/challenge-01-three-way-benchmark.md",
+      "title": "Challenge 1 \u2014 The three-way benchmark: cold-start, p50/p99, and per-1M cost"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/exercises/README.md",
+      "title": "Week 5 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/exercises/exercise-01-fargate-alb.md",
+      "title": "Exercise 1 \u2014 FastAPI on ECS Fargate behind an ALB"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/homework.md",
+      "title": "Week 5 Homework"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/lecture-notes/01-when-to-pick-lambda-fargate-eks-ec2.md",
+      "title": "Lecture 1 \u2014 When to Pick Lambda vs Fargate vs EKS vs EC2: A Real Flowchart You Can Defend in a Design Review"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/lecture-notes/02-eks-production-patterns.md",
+      "title": "Lecture 2 \u2014 EKS Production Patterns: Karpenter, IRSA, the AWS Load Balancer Controller, and Spot Node Economics"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Compute Decision Doc"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/quiz.md",
+      "title": "Week 5 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-05-compute-spectrum-ec2-ecs-eks/resources.md",
+      "title": "Week 5 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/README.md",
+      "title": "Week 6 \u2014 Storage: S3, EBS, EFS, FSx, and the Lifecycle Game"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/challenges/README.md",
+      "title": "Week 6 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/challenges/challenge-01-gp3-vs-io2-benchmark.md",
+      "title": "Challenge 1 \u2014 Benchmark `gp3` vs `io2` on a Synthetic Postgres Workload"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/exercises/README.md",
+      "title": "Week 6 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/exercises/exercise-01-lifecycled-kms-bucket.md",
+      "title": "Exercise 1 \u2014 A Lifecycled, KMS-CMK, Versioned Bucket"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/homework.md",
+      "title": "Week 6 Homework"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/lecture-notes/01-s3-is-a-database.md",
+      "title": "Lecture 1 \u2014 S3 Is a Database. Treat It Like One."
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/lecture-notes/02-storage-cost-engineering.md",
+      "title": "Lecture 2 \u2014 Storage Cost Engineering: Lifecycle Tiers, Replication Topology, and Picking EBS vs EFS vs FSx"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Storage Layer (Data-Lake Foundation)"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/quiz.md",
+      "title": "Week 6 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-06-storage-s3-ebs-efs-fsx-lifecycle/resources.md",
+      "title": "Week 6 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/README.md",
+      "title": "Week 7 \u2014 CI/CD on AWS: CodeBuild, CodePipeline, CodeDeploy, and ECR with Safety Rails"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/challenges/README.md",
+      "title": "Week 7 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/challenges/challenge-01-github-actions-oidc-replication.md",
+      "title": "Challenge 1 \u2014 Replicate the delivery flow with GitHub Actions + OIDC, then compare"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/exercises/README.md",
+      "title": "Week 7 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/exercises/exercise-01-github-pipeline-multiarch-ecr.md",
+      "title": "Exercise 1 \u2014 GitHub-triggered pipeline \u2192 lint/test \u2192 multi-arch CodeBuild \u2192 ECR"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/homework.md",
+      "title": "Week 7 Homework"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/lecture-notes/01-your-pipeline-role-is-more-dangerous.md",
+      "title": "Lecture 1 \u2014 Your Pipeline IAM Role Is More Dangerous Than Your Prod IAM Role \u2014 Here's Why"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/lecture-notes/02-blue-green-discipline-ecs-lambda-oidc.md",
+      "title": "Lecture 2 \u2014 Blue/Green Discipline: ECS Deployment Groups, Lambda Traffic Shifting, and OIDC Federation"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Safety-Rail Pipeline: the CI that ships the capstone"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/quiz.md",
+      "title": "Week 7 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-07-cicd-codebuild-codepipeline-codedeploy-ecr/resources.md",
+      "title": "Week 7 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/README.md",
+      "title": "Week 8 \u2014 Relational: RDS, Aurora, and Aurora Serverless v2"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/challenges/README.md",
+      "title": "Week 8 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/challenges/challenge-01-serverless-v2-break-even.md",
+      "title": "Challenge 1 \u2014 Aurora Serverless v2 Break-Even Analysis"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/exercises/README.md",
+      "title": "Week 8 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/exercises/exercise-01-aurora-cluster-cdk.md",
+      "title": "Exercise 1 \u2014 Stand up an Aurora PostgreSQL cluster via CDK"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/homework.md",
+      "title": "Week 8 Homework"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/lecture-notes/01-aurora-storage-architecture.md",
+      "title": "Lecture 1 \u2014 Aurora Is a Postgres Shell Over a Distributed Storage Engine"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/lecture-notes/02-acu-cost-math-serverless-v2.md",
+      "title": "Lecture 2 \u2014 ACU Cost Math: When Aurora Serverless v2 Is Cheaper and When It's a Trap"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Aurora Relational Layer"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/quiz.md",
+      "title": "Week 8 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-08-relational-rds-aurora-serverless-v2/resources.md",
+      "title": "Week 8 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/README.md",
+      "title": "Week 9 \u2014 DynamoDB & Single-Table Design"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/challenges/README.md",
+      "title": "Week 9 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/challenges/challenge-01-on-demand-vs-provisioned-cost.md",
+      "title": "Challenge 1 \u2014 On-Demand vs Provisioned-with-Autoscaling: Measure the Cost Delta and Recommend Per Profile"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/exercises/README.md",
+      "title": "Week 9 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/exercises/exercise-01-single-table-saas.md",
+      "title": "Exercise 1 \u2014 Implement the Single-Table Design for the Multi-Tenant SaaS"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/homework.md",
+      "title": "Week 9 Homework"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/lecture-notes/01-rick-houlihan-was-right-single-table-design.md",
+      "title": "Lecture 1 \u2014 Rick Houlihan Was Right: The Single-Table Design for a Multi-Tenant CRUD App, Drawn Live"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/lecture-notes/02-defeating-the-hot-partition.md",
+      "title": "Lecture 2 \u2014 Defeating the Hot Partition: Write-Sharding, Sparse Indexes, and Capacity-Unit Math"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Multi-Tenant Single-Table Store (the Capstone's DynamoDB Layer)"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/quiz.md",
+      "title": "Week 9 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-09-dynamodb-single-table-design/resources.md",
+      "title": "Week 9 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/README.md",
+      "title": "Week 10 \u2014 Event-Driven AWS: SQS, SNS, EventBridge, Step Functions, Kinesis, MSK"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/challenges/README.md",
+      "title": "Week 10 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/challenges/challenge-01-swap-eventbridge-for-msk.md",
+      "title": "Challenge 1 \u2014 Swap the EventBridge Spine for MSK"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/exercises/README.md",
+      "title": "Week 10 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/exercises/exercise-01-build-the-order-pipeline.md",
+      "title": "Exercise 1 \u2014 Build the Order-Processing Pipeline (CDK TypeScript)"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/homework.md",
+      "title": "Week 10 \u2014 Homework"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/lecture-notes/01-five-overlapping-primitives-decision-table.md",
+      "title": "Lecture 1 \u2014 SQS, SNS, EventBridge, Kinesis, MSK: Five Overlapping Primitives and the Decision Table You'll Defend in a Design Review"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/lecture-notes/02-replay-and-idempotency.md",
+      "title": "Lecture 2 \u2014 Replay and Idempotency: DLQs, EventBridge Archive, and Poison-Pill Handling"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Event-Driven Order Pipeline (the Capstone's Event Spine)"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/quiz.md",
+      "title": "Week 10 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-10-event-driven-sqs-sns-eventbridge-stepfunctions-kinesis-msk/resources.md",
+      "title": "Week 10 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/README.md",
+      "title": "Week 11 \u2014 Data Lake & AI: S3 + Athena + Glue, OpenSearch, SageMaker, Bedrock"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/challenges/README.md",
+      "title": "Week 11 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/challenges/challenge-01-endpoint-vs-bedrock.md",
+      "title": "Challenge 1 \u2014 Call the SageMaker endpoint from Lambda and benchmark it against Bedrock Claude Haiku"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/exercises/README.md",
+      "title": "Week 11 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/exercises/exercise-01-firehose-glue-athena.md",
+      "title": "Exercise 1 \u2014 Firehose \u2192 Glue \u2192 Athena"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/homework.md",
+      "title": "Week 11 Homework"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/lecture-notes/01-data-lakehouse-and-bedrock-router.md",
+      "title": "Lecture 1 \u2014 The Data-Lakehouse Pattern on AWS, and Why Bedrock Is a Router, Not a Model"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/lecture-notes/02-sagemaker-inference-vs-bedrock.md",
+      "title": "Lecture 2 \u2014 The SageMaker Inference Path vs Bedrock: A Cost-and-Latency Decision Frame"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Lake + Inference Layer"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/quiz.md",
+      "title": "Week 11 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-11-data-lake-ai-athena-glue-sagemaker-bedrock/resources.md",
+      "title": "Week 11 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/README.md",
+      "title": "Week 12 \u2014 Observability: CloudWatch, X-Ray, OpenTelemetry, ADOT"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/challenges/README.md",
+      "title": "Week 12 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/challenges/challenge-01-burn-rate-slo-and-synthetic-outage.md",
+      "title": "Challenge 1 \u2014 A Burn-Rate SLO Alarm, Proven With a Synthetic Outage"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/exercises/README.md",
+      "title": "Week 12 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/exercises/exercise-01-cloudwatch-logs-emf-alarms.md",
+      "title": "Exercise 1 \u2014 CloudWatch Logs, EMF, and Alarms"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/homework.md",
+      "title": "Week 12 Homework"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/lecture-notes/01-three-signals-cloudwatch-and-otel.md",
+      "title": "Lecture 1 \u2014 The Three Signals, CloudWatch, and Why OpenTelemetry Is the Instrumentation"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/lecture-notes/02-xray-adot-and-burn-rate-slos.md",
+      "title": "Lecture 2 \u2014 X-Ray, ADOT on Lambda and EKS, and Burn-Rate SLO Alarms"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Observability Layer"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/quiz.md",
+      "title": "Week 12 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-12-observability-cloudwatch-xray-opentelemetry-adot/resources.md",
+      "title": "Week 12 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/README.md",
+      "title": "Week 13 \u2014 The Security Stack & Multi-Region DR (Capstone build begins)"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/challenges/README.md",
+      "title": "Week 13 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/challenges/challenge-01-route53-failover-drill.md",
+      "title": "Challenge 1 \u2014 Route 53 Health-Checked Failover: Run the Drill, Measure RTO and RPO"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/exercises/README.md",
+      "title": "Week 13 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/exercises/exercise-01-security-baseline.md",
+      "title": "Exercise 1 \u2014 The Security Baseline: GuardDuty, Security Hub, Macie, Inspector"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/homework.md",
+      "title": "Week 13 Homework"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/lecture-notes/01-security-stack-kms-guardduty-waf.md",
+      "title": "Lecture 1 \u2014 The Security Stack: KMS, Secrets, GuardDuty/Security Hub, and the Edge"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/lecture-notes/02-multi-region-dr-rto-rpo.md",
+      "title": "Lecture 2 \u2014 Multi-Region DR: RTO/RPO and the Four Postures, Done Honestly"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Security + DR Foundation (the Capstone Build Begins)"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/quiz.md",
+      "title": "Week 13 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-13-security-stack-multi-region-dr/resources.md",
+      "title": "Week 13 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/README.md",
+      "title": "Week 14 \u2014 FinOps & Edge: Capstone Continues"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/challenges/README.md",
+      "title": "Week 14 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/challenges/challenge-01-edge-waf-origin-failover-cost.md",
+      "title": "Challenge 1 \u2014 Harden the Edge with WAF + Origin Failover, Prove It, and Write the Cost-as-a-Feature Decision"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/exercises/README.md",
+      "title": "Week 14 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/exercises/exercise-01-cur-athena-quicksight-by-tag.md",
+      "title": "Exercise 1 \u2014 CUR \u2192 Athena \u2192 QuickSight by Tag"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/homework.md",
+      "title": "Week 14 Homework"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/lecture-notes/01-finops-as-sre-cost-allocation-savings.md",
+      "title": "Lecture 1 \u2014 FinOps Is SRE for the Bill: Allocation, Savings Plans, and Rightsizing"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/lecture-notes/02-edge-cloudfront-functions-lambda-edge-global-accelerator.md",
+      "title": "Lecture 2 \u2014 The Edge: CloudFront Functions vs Lambda@Edge vs Global Accelerator, and What Each Costs"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Capstone Edge + FinOps Layer"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/quiz.md",
+      "title": "Week 14 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-14-finops-edge-capstone-continues/resources.md",
+      "title": "Week 14 \u2014 Resources"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/README.md",
+      "title": "Week 15 \u2014 Capstone Defense, Chaos Drill & Career Pack"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/challenges/README.md",
+      "title": "Week 15 \u2014 Challenges"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/challenges/challenge-01-defend-the-capstone-live.md",
+      "title": "Challenge 1 \u2014 Defend the Event-Driven SaaS Backbone Live"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/exercises/README.md",
+      "title": "Week 15 \u2014 Exercises"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/exercises/exercise-01-fis-az-failover.md",
+      "title": "Exercise 1 \u2014 FIS AZ Failover: Measure Your RTO"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/homework.md",
+      "title": "Week 15 Homework"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/lecture-notes/01-defending-the-capstone-the-review-and-the-questions.md",
+      "title": "Lecture 1 \u2014 Defending the Capstone: How the Review Runs and the Questions You Will Be Asked"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/lecture-notes/02-chaos-engineering-with-fis-and-the-blameless-postmortem.md",
+      "title": "Lecture 2 \u2014 Chaos Engineering with AWS Fault Injection Service, and the Blameless Postmortem"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/mini-project/README.md",
+      "title": "Mini-Project \u2014 The Capstone: Deliver, Drill, and Defend the Event-Driven SaaS Backbone"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/quiz.md",
+      "title": "Week 15 \u2014 Quiz"
+    },
+    {
+      "path": "curriculum/week-15-capstone-defense-chaos-drill-career-pack/resources.md",
+      "title": "Week 15 \u2014 Resources"
+    }
+  ]
+}
